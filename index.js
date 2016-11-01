@@ -9,6 +9,6 @@ app.get('/', function (req, res) {
 	exec("xdotool key Ctrl+alt+l", puts);
 });
 
-app.listen(3001, function () {
+app.listen(80, function () {
   console.log('Honeypot activated');
 });
